@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+.ui-c1 {
+  color: #909399;
+}
+
+.ui-c2 {
+  color: #5889ff;
+}
+
+.ui-crumbs {
+  line-height: 50px;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  color: #5889ff;
+  a {
+    display: block;
+    color: #909399;
+    &:hover {
+      color: #5889ff;
+    }
+  }
+  .arrow {
+    font-size: 12px;
+    color: #909399;
+    padding: 0 10px;
+  }
+}
+
+.el-table__body-wrapper {
+  font-size: 12px;
+}
+
+.el-table__header-wrapper {
+  th {
+    background: #fafbfc;
+  }
+}
+.el-table__header {
+  th {
+    &.is-leaf {
+      background: #fafbfc;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}
+.cancelButton,.cancelButton:hover{
+  padding: 7px 22px!important;
+  border-color: #D8DCE6!important;
+  background:#fff!important;
+  color: #909399!important;
+}
+.confirmButton,.confirmButton:hover{
+  padding: 7px 22px!important;
+  background:#EE5959!important;
+  border-color:#EE5959!important;
+}
+/*浮动*/
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/*清除浮动*/
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+  zoom: 1;
+}
+.el-tabs--border-card {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.el-tabs--border-card>.el-tabs__header{
+  border:1px solid #EBEEF5;
+  background:#FAFBFC;
+  box-sizing: border-box;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+  color: #5889FF;
+  border-right: none;
+  border-left:none;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item{
+  transition:none;
+}
+.el-tabs--border-card>.el-tabs__content{
+  padding:0;
+}

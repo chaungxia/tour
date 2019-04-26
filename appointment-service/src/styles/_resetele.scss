@@ -1,0 +1,144 @@
+.el-input--medium,
+.el-dialog__body,
+.el-form-item__label {
+  font-size: 12px;
+}
+
+.el-form-item {
+  margin-bottom: 18px;
+}
+
+.el-icon-arrow-up::before {
+  content: "\E60C";
+}
+
+.el-button [class*=el-icon-]+span {
+  margin-left: 12px;
+}
+
+.el-dialog__title {
+  font-size: 16px;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #c0c4cc;
+}
+
+.el-dialog__footer .dialog-footer .el-button {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.el-dialog__footer {
+  text-align: center; // padding: 40px 20px 40px;
+
+  .dialog-footer {
+    .el-button--primary {
+      background-color: #5889ff;
+      border-color: #5889ff;
+    }
+  }
+}
+
+.el-breadcrumb {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.el-breadcrumb__inner.is-link {
+  color: #5889FF;
+}
+
+.el-button--primary {
+  background-color: #5889ff;
+  border-color: #5889ff;
+}
+
+.align-center table th,
+.align-center table td {
+  text-align: center;
+}
+
+.category-cascader {
+  .el-icon-arrow-down:before {
+    content: "\E60B";
+  }
+
+  .el-input__icon {
+    line-height: 36PX;
+  }
+}
+
+.appointment-page {
+
+  .appbtn-blue,
+  .appbtn-red {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90px;
+  }
+
+  .appbtn-blue {
+    background-color: #4D88FE;
+    border-color: #4D88FE;
+  }
+
+  .appbtn-red {
+    background-color: #FF5183;
+    border-color: #FF5183;
+  }
+
+  .plain-default,
+  .plain-default:hover {
+    border-color: #979797;
+    background-color: #fff;
+    color: #272636;
+  }
+
+  .plain-red,
+  .plain-red:hover {
+    border-color: #FF5183;
+    color: #FF5183;
+    background-color: #fff;
+  }
+
+  .el-icon-arrow-up:before {
+    content: "\E605";
+  }
+}
+
+// frontdesk  table style
+.appointment-container {
+  .frontdesk-table-wrap {
+    .el-table__header th.is-leaf {
+      background: #fff;
+    }
+
+    border: 1px solid #ececec;
+    border-bottom: none;
+
+    .el-table td,
+    .el-table th.is-leaf {
+      border-bottom: 1px solid #ececec;
+    }
+
+    thead tr th:not(:nth-last-child(2)) {
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        background-image: linear-gradient(#fffcfc 3px, #ececec 100%);
+        width: 1px;
+        top: 0;
+        bottom: 0px;
+        right: 0;
+      }
+    }
+  }
+
+
+}
